@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Board</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link favicon -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header-main">
+        <div class="logo-container">
+            <img src="/SchoolSchedule/asset/logo.png" alt="">
+        </div>
+        <div class="personal-info-contain">
+            <div class="small-icons-personal">
+                <ul>
+                    <li><i class='bx bxs-plus-circle plus-plus'></i></li>
+                    <li><i class='bx bx-bell bell'>
+                        <span></span>
+                    </i></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <img src="asset/profile.png" alt="">
+                <h3 class="p-name" >Japheth Akomah</h3>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+
+    <!-- Main container -->
+    <section class="contain">
+
+    
+    <div class="contain-part">
+        <!-- Menu container desktop -->
+        <div class="left-container lgScreen">
+            <div class="logo-container-left ">
+                <img src="asset/logo.png" alt="">
+            </div>
+            <div class="icons">
+                <ul>
+                    <li><a href="#"><i class='bx bx-home linkActive'></i></a></li>
+                    <li><a href="#"><i class='bx bx-group'></i></a></li>
+                    <li><a href="#"><i class='bx bx-time'></i></a></li>
+                    <li><a href="#"><i class='bx bx-cog' ></i></a></li>
+                    <li><a href="#"><i class='bx bx-log-out log-out'></i></a></li>
+                </ul>
+            </div>
+        </div>
+<!-- Main left -->
+        <!-- Menu container desktop -->
+        <!-- Main right content -->
+
+        <div class="right-container">
+            <!-- Right Section -->
+            
+            <div class="ri-section">
+                <!-- Selected Teachers -->
+                <div class="first-part teacher-container">
+                    <div class="filter-teacher">
+                        <h3>Find your teacher</h3>
+                        <select  id="teacherSelect">
+                            <option value="all" selected  >All</option>
+                            <option value="maths">Applied Mathematics</option>
+                            <option value="design">Graphic Design</option>
+                            <option value="humanAnatomy">Human Anatomy</option>
+                            <option value="mech">Basic Mech</option>
+                        </select>
+                    </div>
+                    <!-- individual lecturers -->
+
+
+                    <div class="teachers-section">
+                        <!-- Plange -->
+
+                        <div class="t-card">
+                            <img src="asset/cardTe2.png" alt="">
+                            <h3 class="name-t">Prof. Plange</h3>
+                            <span class="time-le " >4 hours lecture</span>
+                            <span class="charge lgScreen-desk" >$100 per hour</span>
+                            <div class="listings">
+                                <i class='bx bx-dots-vertical-rounded first'></i>
+                                <ul class="hasChild-main">
+                                    <li>Schedule Class</li>
+                                    <li>Connect with lecturer</li>
+                                    <li>Report</li>
+                                    <li>Message</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Plange -->
+
+                        <!-- Martins -->
+
+                        <div class="t-card">
+                            <img src="asset/cardTe.png" alt="">
+                            <h3 class="name-t">Prof. Martins</h3>
+                            <span class="time-le" >2 hours lecture</span>
+                            <span class="charge lgScreen-desk" >$120 per hour</span>
+                            <div class="listings">
+                                <i class='bx bx-dots-vertical-rounded first'></i>
+                                <ul class="hasChild-main">
+                                    <li>Schedule Class</li>
+                                    <li>Connect with lecturer</li>
+                                    <li>Report</li>
+                                    <li>Message</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Martins -->
+
+                        <!-- Ike -->
+                        <div class="t-card">
+                            <img src="asset/prof ike.png" alt="">
+                            <h3 class="name-t">Prof. Ike</h3>
+                            <span class="time-le" >2 hours lecture</span>
+                            <span class="charge lgScreen-desk" >$150 per hour</span>
+                            <div class="listings">
+                                <i class='bx bx-dots-vertical-rounded first'></i>
+                                <ul class="hasChild-main">
+                                    <li>Schedule Class</li>
+                                    <li>Connect with lecturer</li>
+                                    <li>Report</li>
+                                    <li>Message</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Ike -->
+
+                    </div>
+
+                    <!-- individual lecturers -->
+                </div>
+                <!-- Selected Teachers -->
+
+
+
+                <!-- lower card container -->
+                <div class="lower-card-container">
+                    <div class="schedule-bar">
+                        <h3>Schedule</h3>
+                        
+
+                    </div>
+                    <div class="card-container">
+                        <div class="main-card">
+                            <img src="asset/Nolwen Cifuentes - Nolwen Cifuentes.png" alt="">
+                            <div class="textContainer">
+                                <h4>Prof. Martins Lily</h4>
+                                <span class="exp" > 5 years Experience </span>
+                                <span class="major"> Master's in Biology </span>
+                            </div>
+                            <div class="card-bn">
+                                <button class="state">Contact</button>
+                            </div>
+                            <div class="status">
+                                <span></span>
+                                <p>Online</p>
+                            </div>
+                        </div>
+                        <div class="but-container">
+                            <div class="card">
+                                <h2>12</h2>
+                                <div class="joint-text">
+                                    <p class="month"> June </p>
+                                    <h3 class="day-month">Monday</h3>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h2>13</h2>
+                                <div class="joint-text">
+                                    <p class="month"> June </p>
+                                    <h3 class="day-month">Tuesday</h3>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h2>14</h2>
+                                <div class="joint-text">
+                                    <p class="month"> June </p>
+                                    <h3 class="day-month">Wednesday</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="schedule-time lgScreen-desk2">
+                            <p>10:00am - 12:00pm</p>
+                            <p>02:40pm - 4:40pm</p>
+                            <p>08:30am - 10:30pm</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- lower card container -->
+
+            </div>
+
+            <!-- Right section -->
+
+            <!-- Left section -->
+            <div class="le-section">
+                <div class="course-info">
+                    <!-- Course card -->
+                    <h3>My Programmes</h3>
+                    <div class="course-card">
+                        <i class="bx bx-book-bookmark icons " ></i>
+                        <div class="join">
+                            <h4>English</h4>
+                            <p>20 hours</p>
+                        </div>
+                        <div class="info-holder">
+                            <i class="bx bx-dots-vertical-rounded second" ></i>
+                            <ul class="hasContent">
+                                <li><a >Watch Video</a></li>
+                                <li><a >View Assignments</a></li>
+                                <li><a >Send feedback</a></li>
+                                <li><a >Contact Tutor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <i class='bx bx-dumbbell icons ' ></i>
+                        <div class="join">
+                            <h4>Gymnastic</h4>
+                            <p>11 hours</p>
+                        </div>
+                        <div class="info-holder">
+                            <i class="bx bx-dots-vertical-rounded second" ></i>
+                            <ul class="hasContent">
+                                <li><a >Watch Video</a></li>
+                                <li><a >View Assignments</a></li>
+                                <li><a >Send feedback</a></li>
+                                <li><a >Contact Tutor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <i class='bx bxs-car-mechanic icons '></i>
+                        <div class="join">
+                            <h4>Basic Mech.</h4>
+                            <p>25 hours</p>
+                        </div>
+                        <div class="info-holder">
+                            <i class="bx bx-dots-vertical-rounded second" ></i>
+                            <ul class="hasContent">
+                                <li><a >Watch Video</a></li>
+                                <li><a >View Assignments</a></li>
+                                <li><a >Send feedback</a></li>
+                                <li><a >Contact Tutor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <i class='bx bxs-calculator icons '></i>
+                        <div class="join">
+                            <h4>Calculus</h4>
+                            <p>14 hours</p>
+                        </div>
+                        <div class="info-holder">
+                            <i class="bx bx-dots-vertical-rounded second" ></i>
+                            <ul class="hasContent">
+                                <li><a >Watch Video</a></li>
+                                <li><a >View Assignments</a></li>
+                                <li><a >Send feedback</a></li>
+                                <li><a >Contact Tutor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Course card -->
+
+                </div>
+
+                <div class="progress-status">
+                    <h3>Account Progress</h3>
+
+
+                        <div class="progress-container">
+                            <h2 class="textValue"></h2>
+                        </div>
+
+                    <div class="progress-barMenu">
+                        <h4>Progress</h4>
+                        <div class="barContent">
+                            <div class="barContent2"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Left section -->
+
+        </div>
+        <!-- Main right content -->
+    </div>
+    </section>
+    <div class="floating-menuBar">
+        
+            <ul>
+                <li class="hasCheck activate" ><i class='bx bx-home'></i></li>
+                <li class="hasCheck" ><i class='bx bx-group'></i></li>
+                <li class="add " > <i class='bx bx-plus plus'></i> </li>
+                <li class="hasCheck" ><i class='bx bx-time-five'></i></li>
+                <li class="hasCheck" ><i class='bx bx-cog' ></i></li>
+            </ul>
+
+
+    </div>
+    <!-- Main container -->
+    <div class="draw-Notifications">
+        <div class="alert-info">
+            <!-- search bar container alert box -->
+            <div class="search-bar-notify">
+                <div class="search-notify">
+                    <input type="text" placeholder="Search here" class="searchInput" >
+                    <img src="../asset/search-profile.png"  class="search-profile">
+                </div>
+                <div class="filter-all-profile">
+                    <i class='bx bx-filter'></i>
+                    <span class="filter-profile-input" ></span>
+                    <ul class="filter-array" >
+                        <li onclick="filterContent('All')"><a>All </a></li>
+                        <li onclick="filterContent('Science')" ><a> Science</a></li>
+                        <li onclick="filterContent('Design')" ><a> Design</a></li>
+                        <li onclick="filterContent('Engineer')" ><a> Engineer</a></li>
+                        <li onclick="filterContent('Programming')" ><a> Programming</a></li>
+                        <li onclick="filterContent('Language')" ><a> Language</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- search bar container alert box -->
+
+            <!-- Listing card -->
+            <div class="listings-card-container">
+                <h4 class="top-list-head" >Top Listings </h4>
+                <div class="list-card">
+                    <!-- Content Generated from the JS file -->
+                </div>
+            </div>
+            <!-- Listing card -->
+
+            <!-- bar-content-persona -->
+            <h5 class="refresh">
+                Others  <i class='bx bx-refresh refresh '  ></i>
+            </h5>
+            <div class="bar-container card1">
+                <img src="asset/barImage02.png" alt="">
+                <div class="name-bar-persona">
+                    <h4 class="name-verify" ><span>Mr. Michael Gyan </span><i class='bx bxs-badge-check'></i> </h4>
+                    <p class="course-title" > Java Developer </p>
+                </div>
+                <div class="bar-btn">
+                    <button>Apply for course</button>
+                </div>
+                <a href="#">View Pricing</a>
+            </div>
+
+            <div class="bar-container card2">
+                <img src="asset/barImage01.png" alt="">
+                <div class="name-bar-persona">
+                    <h4 class="name-verify" ><span>Mrs. Mildred Clinton </span><i class='bx bxs-badge-check'></i> </h4>
+                    <p class="course-title" > Graphic Designer </p>
+                </div>
+                <div class="bar-btn">
+                    <button>Apply for course</button>
+                </div>
+                <a href="#">View Pricing</a>
+            </div>
+            <!-- bar-content-persona -->
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
